@@ -67,13 +67,6 @@ items:
         powerName: potiontick
         amplifier: 2
         effect: CONFUSION
-      '2':
-        powerName: command
-        cooldown: 0
-        command: say say {player} 要吃掉一颗节操？
-        display: 右键吃掉
-        isRight: true
-        permission: ''
     recipechance: 6
     hasRecipe: false
     dropChances:
