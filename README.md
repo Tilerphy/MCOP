@@ -28,7 +28,7 @@ rpgitem test0 quality legendary （设置为传奇物品，还有epic uncommon �
 
 rpgitem test0 power consume （设置为消耗品，右键使用后消失，与food冲突）
 
-rpgitem test0 power command 0 right 这是一个经验书，吃掉之后获得50经验 ``/xp 50 {player}`` minecraft.command.xp
+rpgitem test0 power command 0 right 这是一个经验书，吃掉之后获得50经验 \`/xp 50 {player}\` minecraft.command.xp
 （其中{player}指的是使用者，最后的是权限，从上面的文档去找权限。）
 
 rpgitem test0 drop zombie 10 （僵尸10%几率掉落）
