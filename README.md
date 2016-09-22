@@ -1,21 +1,26 @@
 Spigot 1.10.x OP 常用
 
 1. RPGItem地址 https://www.spigotmc.org/resources/rpgitems.17549/
+
 2. RPGItem命令 https://github.com/NyaaCat/RPGitems-reloaded/wiki/%E5%91%BD%E4%BB%A4
+
 3. 常用权限（Spigot/CraftBukkit） http://wiki.bukkit.org/CraftBukkit_Commands
+
+4. 数据值来源 http://minecraft-zh.gamepedia.com/
 
 举例：
 
-1. 设置某个物品右键使用增加50经验
+设置某个物品右键使用增加50经验
+
 rpgitem test0 create （创建）
 
 rpgitem test0 item 339 （设置为 纸 的素材）
 
 rpgitem test0 display 经验书 （显示名字为经验书）
 
-rpgitem test0 hand 经验（左边）
+rpgitem test0 hand 经验（左边手持类型）
 
-rpgitem test0 type 经验（右边）
+rpgitem test0 type 经验（右边物品类型）
 
 rpgitem test0 damage 0 （去除伤害显示）
 
