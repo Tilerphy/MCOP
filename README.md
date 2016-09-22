@@ -8,6 +8,9 @@ Spigot 1.10.x OP 常用
 
 4. 数据值来源 http://minecraft-zh.gamepedia.com/
 
+5. Spigot 1.10.x https://hub.spigotmc.org/jenkins/job/BuildTools/ 注意下载里面的BuildTools.jar就好了，然后执行它。
+
+
 举例：
 
 设置某个物品右键使用增加50经验
