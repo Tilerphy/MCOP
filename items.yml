@@ -4,6 +4,7 @@ items:
     name: '11'
     id: 20
     haspermission: false
+    permission: a.default.permission
     display: 回城卷轴
     quality: UNCOMMON
     damageMin: 0
@@ -13,7 +14,7 @@ items:
     hand: 回城卷轴
     lore: ''
     description: []
-    item: WOOD_SWORD
+    item: PAPER
     ignoreWorldGuard: false
     item_data: 0
     powers:
@@ -40,7 +41,7 @@ items:
       SKELETON: 10.0
       GHAST: 10.0
       PIG_ZOMBIE: 10.0
-    maxDurability: 0
+    maxDurability: -1
     forceBar: false
     showPowerText: true
     showArmourLore: true
@@ -48,6 +49,7 @@ items:
     name: '09'
     id: 19
     haspermission: false
+    permission: a.default.permission
     display: 经验卷
     quality: UNCOMMON
     damageMin: 0
@@ -74,17 +76,17 @@ items:
     recipechance: 6
     hasRecipe: false
     dropChances:
-      ZOMBIE: 20.0
       ENDERMAN: 30.0
       WITCH: 20.0
       BLAZE: 30.0
       CREEPER: 20.0
       WITHER: 100.0
       ENDER_DRAGON: 100.0
-      GHAST: 30.0
+      ZOMBIE: 20.0
       SKELETON: 20.0
+      GHAST: 30.0
       PIG_ZOMBIE: 20.0
-    maxDurability: 0
+    maxDurability: -1
     forceBar: false
     showPowerText: true
     showArmourLore: true
