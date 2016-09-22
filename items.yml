@@ -1,11 +1,99 @@
-pos: 19
+pos: 21
 items:
+  '11':
+    name: '11'
+    id: 20
+    haspermission: false
+    display: 回城卷轴
+    quality: UNCOMMON
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: 回城卷轴
+    hand: 回城卷轴
+    lore: ''
+    description: []
+    item: WOOD_SWORD
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: consume
+        cooldown: 0
+      '1':
+        powerName: command
+        cooldown: 0
+        command: tp {player} 475 70 303
+        display: 回家吧，勇敢的少年。
+        isRight: true
+        permission: minecraft.command.tp
+    recipechance: 6
+    hasRecipe: false
+    dropChances:
+      ENDERMAN: 10.0
+      WITCH: 10.0
+      BLAZE: 10.0
+      CREEPER: 10.0
+      WITHER: 10.0
+      ENDER_DRAGON: 10.0
+      ZOMBIE: 10.0
+      SKELETON: 10.0
+      GHAST: 10.0
+      PIG_ZOMBIE: 10.0
+    maxDurability: 0
+    forceBar: false
+    showPowerText: true
+    showArmourLore: true
+  '09':
+    name: '09'
+    id: 19
+    haspermission: false
+    display: 经验卷
+    quality: UNCOMMON
+    damageMin: 0
+    damageMax: 0
+    armour: 0
+    type: 经验
+    hand: 经验
+    lore: ''
+    description: []
+    item: PAPER
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: consume
+        cooldown: 0
+      '1':
+        powerName: command
+        cooldown: 0
+        command: xp 20 {player}
+        display: 20经验.
+        isRight: true
+        permission: minecraft.command.xp
+    recipechance: 6
+    hasRecipe: false
+    dropChances:
+      ZOMBIE: 20.0
+      ENDERMAN: 30.0
+      WITCH: 20.0
+      BLAZE: 30.0
+      CREEPER: 20.0
+      WITHER: 100.0
+      ENDER_DRAGON: 100.0
+      GHAST: 30.0
+      SKELETON: 20.0
+      PIG_ZOMBIE: 20.0
+    maxDurability: 0
+    forceBar: false
+    showPowerText: true
+    showArmourLore: true
   '10':
     name: '10'
     id: 18
     haspermission: false
     permission: a.default.permission
-    display: Micro Cola
+    display: 超级经验卷
     quality: EPIC
     damageMin: 0
     damageMax: 0
@@ -25,19 +113,23 @@ items:
         powerName: command
         cooldown: 0
         command: xp 50 {player}
-        display: 50Exp.
+        display: 50经验。
         isRight: true
         permission: minecraft.command.xp
     recipechance: 6
     hasRecipe: false
     dropChances:
       SLIME: 10.0
-      WITCH: 10.0
+      ENDERMAN: 10.0
+      WITCH: 5.0
       BLAZE: 10.0
-      ZOMBIE: 10.0
-      SKELETON: 10.0
-      GHAST: 20.0
-      PIG_ZOMBIE: 10.0
+      CREEPER: 5.0
+      WITHER: 100.0
+      ENDER_DRAGON: 100.0
+      ZOMBIE: 5.0
+      SKELETON: 5.0
+      GHAST: 10.0
+      PIG_ZOMBIE: 5.0
     maxDurability: -1
     forceBar: false
     showPowerText: true
