@@ -24,7 +24,7 @@ items:
       '1':
         powerName: command
         cooldown: 0
-        command: tp {player} 475 70 303
+        command: tp {player} 487 80 315
         display: 回家吧，勇敢的少年。
         isRight: true
         permission: minecraft.command.tp
