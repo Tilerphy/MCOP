@@ -1,0 +1,89 @@
+Setting:
+  DisplayName: '&b&lSellShop'
+  # 进入商店时的消息,如果留空,则不显示消息
+  EnterMessage: ''
+  # 离开商店时的消息,如果留空,则不显示消息
+  LeaveMessage: ''
+  # 如果为true,则该商店为抽奖商店
+  ShopTypeSpecial: false
+  # 右击物品时,商品默认的购买数量
+  # 如果商品本身已经配置过该节点,将会参照商品自身的配置
+  RightClickBuyCount: 1
+  # 玩家是否可以设置右键购买数量
+  # 免费物品强制不能设置
+  # 如果商品本身已经配置过该节点,将会参照商品自身的配置
+  AllowChangeRightClickBuyCount: false
+  # 当右键购买数量大于1时,显示右键购买数量
+  # 物品设置为false可以用来自定义右键购买数量Lore消息
+  # 如果商品本身已经配置过该节点,将会参照商品自身的配置
+  ShowRightClickBuyCount: true
+  # 商品属性显示配置,说明参考配置
+  # 如果商品本身已经配置过该节点,将会参照商品自身的配置
+  HideItemFlag: 63
+signs:
+  text: '[SellShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  Diamond:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:DIAMOND
+      - amount:1
+    Reward: 1000
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&b1 Diamond
+    - 'lore:&2Reward: 1000 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Cobblestone:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:COBBLESTONE
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:COBBLESTONE
+    - amount:1
+    - name:&b Cobblestone
+    - 'lore:&2Reward: 1 Money'
+    - amount:1
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  GLASS:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:GLASS
+      - amount:32
+    Reward: 300
+    MenuItem:
+    - type:GLASS
+    - amount:1
+    - name:&b32 Glass
+    - 'lore:&2Reward: 300 Money'
+    - amount:32
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 27
+    ExtraPermission: ''
+# 配置文件版本,重要,请勿修改
+# 插件升级配置的时候需要用到
+version: '1.2'

@@ -1,0 +1,178 @@
+# Setup instruction: http://dev.bukkit.org/bukkit-plugins/killermoney/pages/mobs-yml/
+# If you do not want use anything, just remove it.
+
+PIG:
+   Money:
+      Chance: 100%
+      Value: 5 ? 10
+
+SHEEP:
+   Money:
+      Chance: 100%
+      Value: 5 ? 10
+
+CHICKEN:
+   Money:
+      Chance: 100%
+      Value: 5 ? 10
+
+COW:
+   Money:
+      Chance: 100%
+      Value: 5 ? 10
+
+HORSE:
+   Money:
+      Chance: 100%
+      Value: 200
+
+RABBIT:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+WOLF:
+   Money:
+      Chance: 100%
+      Value: 200
+
+OCELOT:
+   Money:
+      Chance: 100%
+      Value: 200
+
+BAT:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+BLAZE:
+   Money:
+      Chance: 100%
+      Value: 20 ? 50
+
+CAVE_SPIDER:
+   Money:
+      Chance: 100%
+      Value: 10 ? 40
+
+CREEPER:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+ENDER_DRAGON:
+   Money:
+      Chance: 100%
+      Value: 5000
+
+ENDERMAN:
+   Money:
+      Chance: 100%
+      Value: 50 ? 200
+
+ENDERMITE:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+GHAST:
+   Money:
+      Chance: 100%
+      Value: 20 ? 50
+
+GIANT:
+   Money:
+      Chance: 100%
+      Value: 100
+
+GUARDIAN:
+   Money:
+      Chance: 100%
+      Value: 50 ? 150
+
+IRON_GOLEM:
+   Money:
+      Chance: 100%
+      Value: 100 ? 200
+
+MAGMA_CUBE:
+   Money:
+      Chance: 100%
+      Value: 5 ? 20
+
+MUSHROOM_COW:
+   Money:
+      Chance: 100%
+      Value: 200
+
+PIG_ZOMBIE:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+PLAYER:
+   Cash-transfer:
+      Percent: 25%
+      Limit: 1000
+      Chance: 100%
+
+POLAR_BEAR:
+   Money:
+      Chance: 100%
+      Value: 200
+
+SHULKER:
+   Money:
+      Chance: 100%
+      Value: 20 ? 50
+
+SILVERFISH:
+   Money:
+      Chance: 100%
+      Value: 20 ? 50
+
+SKELETON:
+   Money:
+      Chance: 100%
+      Value: 10 ? 40
+
+SLIME:
+   Money:
+      Chance: 100%
+      Value: 20 ? 50
+
+SNOWMAN:
+   Money:
+      Chance: 100%
+      Value: 150
+
+SPIDER:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
+
+SQUID:
+   Money:
+      Chance: 100%
+      Value: 5 ? 20
+
+VILLAGER:
+   Money:
+      Chance: 100%
+      Value: -100
+
+WITCH:
+   Money:
+      Chance: 100%
+      Value: 30 ? 70
+
+WITHER:
+   Money:
+      Chance: 100%
+      Value: 5000
+
+ZOMBIE:
+   Money:
+      Chance: 100%
+      Value: 10 ? 30
