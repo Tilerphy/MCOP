@@ -54,16 +54,16 @@ shop:
   Diamonds:
     RewardType: item
     PriceType: Money
-    Price: 2000
+    Price: 1000
     Reward:
     - - type:DIAMOND
-      - amount:5
+      - amount:1
     MenuItem:
     - type:DIAMOND
     - amount:1
     - name:&95 Diamonds
-    - 'lore:&cPrice: 2000 Money'
-    - amount:5
+    - 'lore:&cPrice: 1000 Money'
+    - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 3
     ExtraPermission: ''
