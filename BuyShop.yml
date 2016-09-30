@@ -80,7 +80,7 @@ shop:
       - enchantment:DURABILITY#3
       - enchantment:SILK_TOUCH#1
     MenuItem:
-    - type:DIAMOND_PICKAXE
+    - type:DIAMOND_SHOVEL
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
     - 'lore:&cPrice: 35000 money'
