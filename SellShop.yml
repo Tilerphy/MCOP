@@ -62,12 +62,12 @@ shop:
     Price:
     - - type:EGG
       - amount:1
-    Reward: 50
+    Reward: 20
     MenuItem:
     - type:EGG
     - amount:1
     - name:&b EGG
-    - 'lore:&2Reward: 50 Money'
+    - 'lore:&2Reward: 20 Money'
     - amount:1
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 4
@@ -78,12 +78,12 @@ shop:
     Price:
     - - type:MILK_BUCKET
       - amount:1
-    Reward: 500
+    Reward: 300
     MenuItem:
     - type:MILK_BUCKET
     - amount:1
     - name:&b Milk
-    - 'lore:&2Reward: 500 Money'
+    - 'lore:&2Reward: 300 Money'
     - amount:1
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 5
