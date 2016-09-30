@@ -70,7 +70,7 @@ shop:
     PriceType: Money
     Price: 15000
     Reward:
-    - - type:IRON_SHOVEL
+    - - type:DIAMOND_SPADE
       - amount:1
       - name:&c建筑师的迷之铲
       - lore:&8&o建筑师%player_name%的迷之铲。
@@ -80,7 +80,7 @@ shop:
       - enchantment:DURABILITY#3
       - enchantment:SILK_TOUCH#1
     MenuItem:
-    - type:IRON_SHOVEL
+    - type:DIAMOND_SPADE
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
     - 'lore:&cPrice: 35000 money'
