@@ -61,7 +61,7 @@ shop:
     MenuItem:
     - type:DIAMOND
     - amount:1
-    - name:&95 Diamonds
+    - name:&91 Diamond
     - 'lore:&cPrice: 1000 Money'
     - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
@@ -70,21 +70,23 @@ shop:
   ShadowArmor:
     RewardType: item
     PriceType: Money
-    Price: 1500
+    Price: 7500
     Reward:
     - - type:LEATHER_CHESTPLATE
       - amount:1
-      - name:&5ShadowArmor
+      - name:&5影
       - 'lore:'
       - color:110#10#140
       - enchantment:PROTECTION_ENVIRONMENTAL#10
+      - enchantment:PROTECTION_FIRE#2
     MenuItem:
     - type:LEATHER_CHESTPLATE
     - amount:1
     - name:&5%itemname%
-    - 'lore:&cPrice: 1500 Money'
+    - 'lore:&cPrice: 7500 Money'
     - color:110#10#140
     - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - enchantment:PROTECTION_FIRE#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
     InventoryLocation: 5
     ExtraPermission: ''
@@ -98,7 +100,7 @@ shop:
     MenuItem:
     - type:OBSIDIAN
     - amount:1
-    - name:&964 Obsidian
+    - name:&91 Obsidian
     - 'lore:&cPrice: 500 Money'
     - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
@@ -124,13 +126,13 @@ shop:
   EnchantUnbreaking:
     RewardType: enchantment
     PriceType: Money
-    Price: 2000
+    Price: 3000
     Reward: DURABILITY#3
     MenuItem:
     - type:ENCHANTED_BOOK
     - amount:1
     - name:&4[crown] &c附魔书-耐久III &4[crown]
-    - 'lore:&8Enchants the Item in your hand. #&cPrice: 2000 money #'
+    - 'lore:&8Enchants the Item in your hand. #&cPrice: 3000 money #'
     - enchantment:DURABILITY#3
     Message: '&eThe Enchantment Unbreaking III was added to your item!'
     InventoryLocation: 19
@@ -138,21 +140,25 @@ shop:
   YourFateSword:
     RewardType: item
     PriceType: Money
-    Price: 20000
+    Price: 30000
     Reward:
     - - type:DIAMOND_SWORD
       - amount:1
-      - name:&c火焰剑
-      - lore:&8&o%player_name%的火焰之舞。
+      - name:&c冰与火之舞
+      - lore:&8&o%player_name%的冰与火之舞。
       - enchantment:DAMAGE_ALL#5
-      - enchantment:FIRE_ASPECT#2
+      - enchantment:FIRE_ASPECT#3
+      - enchantment:FROST_WALKER#1
+      - enchantment:THORNS#2
     MenuItem:
     - type:DIAMOND_SWORD
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
-    - 'lore:&cPrice: 2000 Points'
+    - 'lore:&cPrice: 30000 money'
     - enchantment:DAMAGE_ALL#5
-    - enchantment:FIRE_ASPECT#2
+    - enchantment:FIRE_ASPECT#3
+    - enchantment:FROST_WALKER#1
+    - enchantment:THORNS#2
     Message: '&eYou bought %itemname%! Money left: &c%left%'
     InventoryLocation: 21
     ExtraPermission: ''
