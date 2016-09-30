@@ -24,33 +24,6 @@ signs:
   text: '[BuyShop]'
   NeedPermissionToCreateSign: true
 shop:
-  Wool:
-    RewardType: item
-    PriceType: Money
-    Price: 400
-    Reward:
-    - - type:WOOL
-      - amount:10
-      - durability:14
-    - - type:WOOL
-      - amount:10
-      - durability:11
-    - - type:WOOL
-      - amount:10
-      - durability:4
-    - - type:WOOL
-      - amount:10
-      - durability:5
-    MenuItem:
-    - type:WOOL
-    - amount:1
-    - name:&9Colored Wool
-    - 'lore:&c10 Red, &110 Blue, &e10 Yellow and &a10 Green Wool #&cPrice: 400 Money'
-    - durability:11
-    - amount:40
-    Message: '&eYou bought colored Wool! Money left: &c%left%'
-    InventoryLocation: 1
-    ExtraPermission: ''
   Diamonds:
     RewardType: item
     PriceType: Money
@@ -65,7 +38,7 @@ shop:
     - 'lore:&cPrice: 1000 Money'
     - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
-    InventoryLocation: 3
+    InventoryLocation: 1
     ExtraPermission: ''
   DesignersTool1:
     RewardType: item
@@ -90,7 +63,7 @@ shop:
     - enchantment:OXYGEN#1
     - enchantment:DURABILITY#3
     Message: '&eYou bought %itemname%! Money left: &c%left%'
-    InventoryLocation: 20
+    InventoryLocation: 2
     ExtraPermission: ''
   DesignersTool2:
     RewardType: item
@@ -117,7 +90,7 @@ shop:
     - enchantment:DURABILITY#3
     - enchantment:SILK_TOUCH#1
     Message: '&eYou bought %itemname%! Money left: &c%left%'
-    InventoryLocation: 20
+    InventoryLocation: 3
     ExtraPermission: ''
   ShadowArmor:
     RewardType: item
@@ -140,7 +113,7 @@ shop:
     - enchantment:PROTECTION_ENVIRONMENTAL#10
     - enchantment:PROTECTION_FIRE#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
-    InventoryLocation: 5
+    InventoryLocation: 4
     ExtraPermission: ''
   Obsidian:
     RewardType: item
@@ -156,7 +129,7 @@ shop:
     - 'lore:&cPrice: 500 Money'
     - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
-    InventoryLocation: 7
+    InventoryLocation: 5
     ExtraPermission: ''
   GodApple:
     RewardType: item
@@ -173,7 +146,7 @@ shop:
     - 'lore:&cPrice: 100 Money'
     - durability:1
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
-    InventoryLocation: 9
+    InventoryLocation: 6
     ExtraPermission: ''
   EnchantUnbreaking:
     RewardType: enchantment
@@ -187,7 +160,7 @@ shop:
     - 'lore:&8Enchants the Item in your hand. #&cPrice: 3000 money #'
     - enchantment:DURABILITY#3
     Message: '&eThe Enchantment Unbreaking III was added to your item!'
-    InventoryLocation: 19
+    InventoryLocation: 7
     ExtraPermission: ''
   YourFateSword:
     RewardType: item
@@ -212,7 +185,7 @@ shop:
     - enchantment:FROST_WALKER#1
     - enchantment:THORNS#2
     Message: '&eYou bought %itemname%! Money left: &c%left%'
-    InventoryLocation: 21
+    InventoryLocation: 8
     ExtraPermission: ''
   Back:
     RewardType: shop
