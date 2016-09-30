@@ -67,10 +67,62 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 3
     ExtraPermission: ''
+  DesignersTool1:
+    RewardType: item
+    PriceType: Money
+    Price: 30000
+    Reward:
+    - - type:DIAMOND_PICKAXE
+      - amount:1
+      - name:&c建筑师的历久弥新之钻石镐
+      - lore:&8&o建筑师%player_name%的历久弥新之钻石镐。
+      - enchantment:DIG_SPEED#3
+      - enchantment:WATER_WORKER#3
+      - enchantment:OXYGEN#1
+      - enchantment:DURABILITY#3
+    MenuItem:
+    - type:DIAMOND_PICKAXE
+    - amount:1
+    - name:&4[*] &c%itemname% &4[*]
+    - 'lore:&cPrice: 30000 money'
+    - enchantment:DIG_SPEED#3
+    - enchantment:WATER_WORKER#3
+    - enchantment:OXYGEN#1
+    - enchantment:DURABILITY#3
+    Message: '&eYou bought %itemname%! Money left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+  DesignersTool2:
+    RewardType: item
+    PriceType: Money
+    Price: 35000
+    Reward:
+    - - type:DIAMOND_SHOVEL
+      - amount:1
+      - name:&c建筑师的迷之铲
+      - lore:&8&o建筑师%player_name%的迷之铲。
+      - enchantment:DIG_SPEED#3
+      - enchantment:WATER_WORKER#3
+      - enchantment:OXYGEN#1
+      - enchantment:DURABILITY#3
+      - enchantment:SILK_TOUCH#1
+    MenuItem:
+    - type:DIAMOND_PICKAXE
+    - amount:1
+    - name:&4[*] &c%itemname% &4[*]
+    - 'lore:&cPrice: 35000 money'
+    - enchantment:DIG_SPEED#3
+    - enchantment:WATER_WORKER#3
+    - enchantment:OXYGEN#1
+    - enchantment:DURABILITY#3
+    - enchantment:SILK_TOUCH#1
+    Message: '&eYou bought %itemname%! Money left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
   ShadowArmor:
     RewardType: item
     PriceType: Money
-    Price: 7500
+    Price: 20000
     Reward:
     - - type:LEATHER_CHESTPLATE
       - amount:1
@@ -83,7 +135,7 @@ shop:
     - type:LEATHER_CHESTPLATE
     - amount:1
     - name:&5%itemname%
-    - 'lore:&cPrice: 7500 Money'
+    - 'lore:&cPrice: 20000 Money'
     - color:110#10#140
     - enchantment:PROTECTION_ENVIRONMENTAL#10
     - enchantment:PROTECTION_FIRE#2
