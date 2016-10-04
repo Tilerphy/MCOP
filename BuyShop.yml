@@ -83,7 +83,7 @@ shop:
     - type:DIAMOND_SPADE
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
-    - 'lore:&cPrice: 35000 money'
+    - 'lore:&cPrice: 15000 money'
     - enchantment:DIG_SPEED#3
     - enchantment:WATER_WORKER#3
     - enchantment:OXYGEN#1
@@ -186,6 +186,31 @@ shop:
     - enchantment:THORNS#2
     Message: '&eYou bought %itemname%! Money left: &c%left%'
     InventoryLocation: 8
+    ExtraPermission: ''
+  DesignersTool3:
+    RewardType: item
+    PriceType: Money
+    Price: 15000
+    Reward:
+    - - type:DIAMOND_AXE
+      - amount:1
+      - name:&c穿越历史的伐木工之斧
+      - lore:&8&o穿越者%player_name%的伐木工之斧。
+      - enchantment:DIG_SPEED#3
+      - enchantment:WATER_WORKER#3
+      - enchantment:OXYGEN#1
+      - enchantment:DURABILITY#3
+    MenuItem:
+    - type:DIAMOND_AXE
+    - amount:1
+    - name:&4[*] &c%itemname% &4[*]
+    - 'lore:&cPrice: 15000 money'
+    - enchantment:DIG_SPEED#3
+    - enchantment:WATER_WORKER#3
+    - enchantment:OXYGEN#1
+    - enchantment:DURABILITY#3
+    Message: '&eYou bought %itemname%! Money left: &c%left%'
+    InventoryLocation: 9
     ExtraPermission: ''
   Back:
     RewardType: shop
