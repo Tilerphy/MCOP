@@ -68,7 +68,7 @@ shop:
     - name:&b EGG
     - 'lore:&2Reward: 20 Money'
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
-    InventoryLocation: 4
+    InventoryLocation: 3
     ExtraPermission: ''
   MILK_BUCKET:
     RewardType: money
@@ -83,7 +83,7 @@ shop:
     - name:&b Milk
     - 'lore:&2Reward: 300 Money'
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
-    InventoryLocation: 5
+    InventoryLocation: 4
     ExtraPermission: ''
   GLASS:
     RewardType: money
@@ -98,7 +98,7 @@ shop:
     - 'lore:&2Reward: 300 Money'
     - amount:32
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
-    InventoryLocation: 3
+    InventoryLocation: 5
     ExtraPermission: ''
   Back:
     RewardType: shop
