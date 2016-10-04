@@ -212,6 +212,25 @@ shop:
     Message: '&eYou bought %itemname%! Money left: &c%left%'
     InventoryLocation: 9
     ExtraPermission: ''
+  LuckyShield:
+    RewardType: item
+    PriceType: Money
+    Price: 10000
+    Reward:
+    - - type:SHIELD
+      - amount:1
+      - name:&c幸运之盾
+      - lore:&8&o听说拿着这盾牌的人会很幸运，可是……真的吗？。
+      - enchantment:LUCK#5
+    MenuItem:
+    - type:SHIELD
+    - amount:1
+    - name:&4[*] &c%itemname% &4[*]
+    - 'lore:&cPrice: 10000 money'
+    - enchantment:LUCK#5
+    Message: '&eYou bought %itemname%! Money left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
