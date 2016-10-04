@@ -45,14 +45,13 @@ shop:
     PriceType: item
     Price:
     - - type:COBBLESTONE
-      - amount:1
-    Reward: 1
+      - amount:64
+    Reward: 640
     MenuItem:
     - type:COBBLESTONE
-    - amount:1
+    - amount:64
     - name:&b Cobblestone
     - 'lore:&2Reward: 1 Money'
-    - amount:1
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 2
     ExtraPermission: ''
@@ -61,14 +60,13 @@ shop:
     PriceType: item
     Price:
     - - type:EGG
-      - amount:1
-    Reward: 20
+      - amount:8
+    Reward: 160
     MenuItem:
     - type:EGG
-    - amount:1
+    - amount:8
     - name:&b EGG
     - 'lore:&2Reward: 20 Money'
-    - amount:1
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 4
     ExtraPermission: ''
@@ -84,7 +82,6 @@ shop:
     - amount:1
     - name:&b Milk
     - 'lore:&2Reward: 300 Money'
-    - amount:1
     Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 5
     ExtraPermission: ''
@@ -94,10 +91,9 @@ shop:
     Price:
     - - type:GLASS
       - amount:32
-    Reward: 300
+    Reward: 640
     MenuItem:
     - type:GLASS
-    - amount:1
     - name:&b32 Glass
     - 'lore:&2Reward: 300 Money'
     - amount:32
