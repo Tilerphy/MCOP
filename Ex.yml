@@ -1,5 +1,5 @@
 Setting:
-  DisplayName: '&lMenu'
+  DisplayName: '&b&lSellShop'
   # 进入商店时的消息,如果留空,则不显示消息
   EnterMessage: ''
   # 离开商店时的消息,如果留空,则不显示消息
@@ -21,32 +21,39 @@ Setting:
   # 如果商品本身已经配置过该节点,将会参照商品自身的配置
   HideItemFlag: 63
 signs:
-  text: '[Menu]'
+  text: '[SellShop]'
   NeedPermissionToCreateSign: true
 shop:
-  MenuBuyShop:
-    RewardType: shop
-    PriceType: free
-    Reward: BuyShop
+  Diamond:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:DIAMOND
+      - amount:1
+    Reward: 1000
     MenuItem:
-    - type:GLASS
+    - type:DIAMOND
     - amount:1
-    - name:&9&lBuyShop &6[+]
-    - lore:&8Here you can buy Items
-    Message: ''
+    - name:&b1 Diamond
+    - 'lore:&2Reward: 1000 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 1
     ExtraPermission: ''
-  MenuSellShop:
-    RewardType: shop
-    PriceType: free
-    Reward: SellShop
+  Cobblestone:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:COBBLESTONE
+      - amount:64
+    Reward: 640
     MenuItem:
     - type:COBBLESTONE
-    - amount:1
-    - name:&b&lSellShop &6[+]
-    - lore:&8Here you can sell Items
-    Message: ''
-    InventoryLocation: 3
+    - amount:64
+    - name:&b Cobblestone
+    - 'lore:&2Reward: 1 Money'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
     ExtraPermission: ''
 # 配置文件版本,重要,请勿修改
 # 插件升级配置的时候需要用到
