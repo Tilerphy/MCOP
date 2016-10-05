@@ -263,6 +263,22 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 12
     ExtraPermission: ''
+  mountainstep:
+    RewardType: item
+    PriceType: Money
+    Price: 80000
+    Reward:
+    - - type:ELYTRA
+      - amount:1
+    MenuItem:
+    - type:ELYTRA
+    - amount:1
+    - name:&9高空滑翔翼
+    - 'lore:&cPrice: 80000 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
