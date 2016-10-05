@@ -115,7 +115,7 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 6
     ExtraPermission: ''
-  GoldSword:
+  GoldINGOT:
     RewardType: money
     PriceType: item
     Price:
