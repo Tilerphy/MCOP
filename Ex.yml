@@ -1,5 +1,5 @@
 Setting:
-  DisplayName: '&b&lSellShop'
+  DisplayName: '&b&l换购商店'
   # 进入商店时的消息,如果留空,则不显示消息
   EnterMessage: ''
   # 离开商店时的消息,如果留空,则不显示消息
@@ -21,7 +21,7 @@ Setting:
   # 如果商品本身已经配置过该节点,将会参照商品自身的配置
   HideItemFlag: 63
 signs:
-  text: '换购商店'
+  text: '[ExShop]'
   NeedPermissionToCreateSign: true
 shop:
   GoldIngot:
