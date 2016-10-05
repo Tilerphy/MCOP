@@ -28,13 +28,13 @@ shop:
     RewardType: item
     PriceType: item
     Price:
-    - - type:GOLDEN_SWORD
+    - - type:GOLD_SWORD
       - amount:2
     Reward:
     - - type:GOLD_INGOT
       - amount:1
     MenuItem:
-    - type:GOLDEN_SWORD
+    - type:GOLD_SWORD
     - amount:1
     - name:&b两把金剑换购一个金块。
     - 'lore:&2Reward: 1 金块'
