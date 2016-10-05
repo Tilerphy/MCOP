@@ -21,7 +21,7 @@ Setting:
   # 如果商品本身已经配置过该节点,将会参照商品自身的配置
   HideItemFlag: 63
 signs:
-  text: '[ExShop]'
+  text: '[Ex]'
   NeedPermissionToCreateSign: true
 shop:
   GoldIngot:
