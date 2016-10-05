@@ -36,6 +36,18 @@ shop:
     Message: ''
     InventoryLocation: 1
     ExtraPermission: ''
+  ExShop:
+    RewardType: shop
+    PriceType: free
+    Reward: ExShop
+    MenuItem:
+    - type:GOLDEN_INGOT
+    - amount:1
+    - name:&9&l换购商店 &6[+]
+    - lore:&8在这里换购！
+    Message: ''
+    InventoryLocation: 2
+    ExtraPermission: ''
   MenuSellShop:
     RewardType: shop
     PriceType: free
