@@ -39,7 +39,7 @@ shop:
   Ex:
     RewardType: shop
     PriceType: free
-    Reward: ExShop
+    Reward: Ex
     MenuItem:
     - type:GOLD_INGOT
     - amount:1
