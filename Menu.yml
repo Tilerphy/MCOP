@@ -36,7 +36,7 @@ shop:
     Message: ''
     InventoryLocation: 1
     ExtraPermission: ''
-  ExShop:
+  Ex:
     RewardType: shop
     PriceType: free
     Reward: ExShop
