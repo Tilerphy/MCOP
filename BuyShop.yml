@@ -97,19 +97,17 @@ shop:
     PriceType: Money
     Price: 20000
     Reward:
-    - - type:LEATHER_CHESTPLATE
+    - - type:NINJA_CHESTPLATE
       - amount:1
       - name:&5影
       - 'lore:'
-      - color:110#10#140
       - enchantment:PROTECTION_ENVIRONMENTAL#10
       - enchantment:PROTECTION_FIRE#2
     MenuItem:
-    - type:LEATHER_CHESTPLATE
+    - type:NINJA_CHESTPLATE
     - amount:1
     - name:&5%itemname%
     - 'lore:&cPrice: 20000 Money'
-    - color:110#10#140
     - enchantment:PROTECTION_ENVIRONMENTAL#10
     - enchantment:PROTECTION_FIRE#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
@@ -167,7 +165,7 @@ shop:
     PriceType: Money
     Price: 30000
     Reward:
-    - - type:DIAMOND_SWORD
+    - - type:METEOR_SWORD
       - amount:1
       - name:&c冰与火之舞
       - lore:&8&o%player_name%的冰与火之舞。
@@ -176,7 +174,7 @@ shop:
       - enchantment:FROST_WALKER#1
       - enchantment:THORNS#2
     MenuItem:
-    - type:DIAMOND_SWORD
+    - type:METEOR_SWORD
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
     - 'lore:&cPrice: 30000 money'
