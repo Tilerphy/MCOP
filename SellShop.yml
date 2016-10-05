@@ -100,6 +100,36 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 5
     ExtraPermission: ''
+  GoldNugget:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:GOLD_NUGGET
+      - amount:1
+    Reward: 100
+    MenuItem:
+    - type:GOLD_NUGGET
+    - name:&b1 Gold Nugget
+    - 'lore:&2Reward: 100 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+  GoldSword:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:GOLD_INGOT
+      - amount:1
+    Reward: 900
+    MenuItem:
+    - type:GOLD_INGOT
+    - name:&b1 Gold Ingot
+    - 'lore:&2Reward: 900 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
