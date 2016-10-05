@@ -41,7 +41,7 @@ shop:
     PriceType: free
     Reward: ExShop
     MenuItem:
-    - type:GOLDEN_INGOT
+    - type:GOLD_INGOT
     - amount:1
     - name:&9&l换购商店 &6[+]
     - lore:&8在这里换购！
