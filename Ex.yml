@@ -21,38 +21,24 @@ Setting:
   # 如果商品本身已经配置过该节点,将会参照商品自身的配置
   HideItemFlag: 63
 signs:
-  text: '[SellShop]'
+  text: '换购商店'
   NeedPermissionToCreateSign: true
 shop:
-  Diamond:
-    RewardType: money
+  GoldIngot:
+    RewardType: item
     PriceType: item
     Price:
-    - - type:DIAMOND
+    - - type:GOLDEN_SWORD
+      - amount:2
+    Reward:
+    - - type:GOLD_INGOT
       - amount:1
-    Reward: 1000
     MenuItem:
-    - type:DIAMOND
+    - type:GOLDEN_SWORD
     - amount:1
-    - name:&b1 Diamond
-    - 'lore:&2Reward: 1000 Money'
-    - amount:1
+    - name:&b两把金剑换购一个金块。
+    - 'lore:&2Reward: 1 金块'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
-    InventoryLocation: 1
-    ExtraPermission: ''
-  Cobblestone:
-    RewardType: money
-    PriceType: item
-    Price:
-    - - type:COBBLESTONE
-      - amount:64
-    Reward: 640
-    MenuItem:
-    - type:COBBLESTONE
-    - amount:64
-    - name:&b Cobblestone
-    - 'lore:&2Reward: 1 Money'
-    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 2
     ExtraPermission: ''
 # 配置文件版本,重要,请勿修改
