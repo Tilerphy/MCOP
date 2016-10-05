@@ -229,6 +229,40 @@ shop:
     Message: '&eYou bought %itemname%! Money left: &c%left%'
     InventoryLocation: 10
     ExtraPermission: ''
+  arrows:
+    RewardType: item
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - - type:ARROW
+      - amount:64
+    MenuItem:
+    - type:ARROW
+    - amount:64
+    - name:&964 Arrows
+    - 'lore:&cPrice: 1000 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+  honorbow:
+    RewardType: item
+    PriceType: Money
+    Price: 25000
+    Reward:
+    - - type:BOW
+      - amount:1
+    MenuItem:
+    - type:BOW
+    - amount:1
+    - name:&9穿云弓
+    - enchantment:ARROW_DAMAGE#3
+    - enchantment:DAMAGE_UNDEAD#3
+    - 'lore:&cPrice: 25000 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
