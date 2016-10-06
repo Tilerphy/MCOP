@@ -248,10 +248,14 @@ shop:
   honorbow:
     RewardType: item
     PriceType: Money
-    Price: 25000
+    Price: 35000
     Reward:
     - - type:BOW
       - amount:1
+      - name:&c穿云弓
+      - lore:&8&o一箭穿云，一击落月。
+      - enchantment:ARROW_DAMAGE#3
+      - enchantment:DAMAGE_UNDEAD#3
     MenuItem:
     - type:BOW
     - amount:1
