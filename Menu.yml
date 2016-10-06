@@ -36,10 +36,10 @@ shop:
     Message: ''
     InventoryLocation: 1
     ExtraPermission: ''
-  Ex:
+  MenuExShop:
     RewardType: shop
     PriceType: free
-    Reward: Ex
+    Reward: ExShop
     MenuItem:
     - type:GOLD_INGOT
     - amount:1
