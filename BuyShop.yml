@@ -283,22 +283,6 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 13
     ExtraPermission: ''
-  Skull1:
-    RewardType: item
-    PriceType: Money
-    Price: 80000
-    Reward:
-    - - type:SKULL#1
-      - amount:1
-    MenuItem:
-    - type:SKULL#1
-    - amount:1
-    - name:&9凋零骷髅头
-    - 'lore:&cPrice: 80000 Money'
-    - amount:1
-    Message: '&eYou bought %reward%! Money left: &c%left%'
-    InventoryLocation: 14
-    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free

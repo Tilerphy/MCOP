@@ -29,7 +29,7 @@ shop:
     PriceType: item
     Price:
     - - type:GOLD_SWORD
-      - amount:2
+      - amount:1
     Reward:
     - - type:GOLD_INGOT
       - amount:1
