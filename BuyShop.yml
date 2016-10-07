@@ -48,7 +48,7 @@ shop:
     - - type:DIAMOND_PICKAXE
       - amount:1
       - name:&c建筑师的历久弥新之钻石镐
-      - lore:&8&o建筑师%player_name%的历久弥新之钻石镐。
+      - lore:&8&o建筑师%player%的历久弥新之钻石镐。
       - enchantment:DIG_SPEED#3
       - enchantment:WATER_WORKER#3
       - enchantment:OXYGEN#1
@@ -73,7 +73,7 @@ shop:
     - - type:DIAMOND_SPADE
       - amount:1
       - name:&c建筑师的迷之铲
-      - lore:&8&o建筑师%player_name%的迷之铲。
+      - lore:&8&o建筑师%player%的迷之铲。
       - enchantment:DIG_SPEED#3
       - enchantment:WATER_WORKER#3
       - enchantment:OXYGEN#1
@@ -168,7 +168,7 @@ shop:
     - - type:DIAMOND_SWORD
       - amount:1
       - name:&c冰与火之舞
-      - lore:&8&o%player_name%的冰与火之舞。
+      - lore:&8&o%player%的冰与火之舞。
       - enchantment:DAMAGE_ALL#5
       - enchantment:FIRE_ASPECT#3
       - enchantment:FROST_WALKER#1
@@ -193,7 +193,7 @@ shop:
     - - type:DIAMOND_AXE
       - amount:1
       - name:&c穿越历史的伐木工之斧
-      - lore:&8&o穿越者%player_name%的伐木工之斧。
+      - lore:&8&o穿越者%player%的伐木工之斧。
       - enchantment:DIG_SPEED#3
       - enchantment:WATER_WORKER#3
       - enchantment:OXYGEN#1
