@@ -24,6 +24,22 @@ signs:
   text: '[ExShop]'
   NeedPermissionToCreateSign: true
 shop:
+  Diamonds:
+    RewardType: item
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - - type:DIAMOND
+      - amount:1
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&91 Diamond
+    - 'lore:&cPrice: 1000 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
   Slime:
     RewardType: item
     PriceType: money
