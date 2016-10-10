@@ -90,7 +90,7 @@ shop:
       - amount:1
       - durability:98
       - name:&b猫
-      - 'lore:&2扔出来一只猫，别忘了用骨头驯化它。'
+      - 'lore:&2扔出来一只猫，别忘了用生鱼驯化它。'
     MenuItem:
     - id:383
     - durability:98
