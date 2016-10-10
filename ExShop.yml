@@ -25,9 +25,6 @@ signs:
   NeedPermissionToCreateSign: true
 shop:
   Slime:
-    RewardType: item
-    PriceType: Money
-    Price: 280
     Reward:
     - - id: 383
       - amount: 1
