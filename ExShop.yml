@@ -1,5 +1,5 @@
 Setting:
-  DisplayName: '&b&l换购商店'
+  DisplayName: '&b&l蛋蛋商店'
   # 进入商店时的消息,如果留空,则不显示消息
   EnterMessage: ''
   # 离开商店时的消息,如果留空,则不显示消息
@@ -24,20 +24,22 @@ signs:
   text: '[ExShop]'
   NeedPermissionToCreateSign: true
 shop:
-  GoldIngot:
+  Slime:
     RewardType: item
-    PriceType: item
-    Price:
-    - - type:GOLD_SWORD
-      - amount:1
+    PriceType: money
+    Price:280
     Reward:
-    - - type:GOLD_INGOT
+    - - id:383
       - amount:1
+      - durability:55
+      - name:&b史莱姆刷怪蛋
+      - 'lore:&2扔出来一个的随机大小史莱姆，看人品咯。'
     MenuItem:
-    - type:GOLD_SWORD
+    - id:383
+    - durability:55
     - amount:1
-    - name:&b两把金剑换购一个金块。
-    - 'lore:&2Reward: 1 金块'
+    - name:&b史莱姆刷怪蛋
+    - 'lore:&2Reward: 280 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 1
     ExtraPermission: ''
