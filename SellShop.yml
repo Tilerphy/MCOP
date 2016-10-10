@@ -158,7 +158,22 @@ shop:
     - 'lore:&2Reward: 640 Money'
     - amount:1
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
-    InventoryLocation: 8
+    InventoryLocation: 9
+    ExtraPermission: ''
+  nianyeqiu:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - id:341
+      - amount:32
+    Reward: 1600
+    MenuItem:
+    - id:341
+    - name:&b32 粘液球
+    - 'lore:&2Reward: 1600 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
     ExtraPermission: ''
   Back:
     RewardType: shop
