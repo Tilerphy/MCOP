@@ -26,10 +26,10 @@ signs:
 shop:
   Slime:
     RewardType: item
-    PriceType: money
+    PriceType: Money
     Price: 280
     Reward:
-    - -id: 383
+    - - id: 383
       - amount: 1
       - durability: 55
       - name: &b史莱姆刷怪蛋
