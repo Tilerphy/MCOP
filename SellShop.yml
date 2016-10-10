@@ -144,7 +144,22 @@ shop:
     - amount:1
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 8
-    ExtraPermission: ''  
+    ExtraPermission: ''
+  dirt:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - id:03
+      - amount:64
+    Reward: 640
+    MenuItem:
+    - id:03
+    - name:&b64 泥土
+    - 'lore:&2Reward: 640 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
