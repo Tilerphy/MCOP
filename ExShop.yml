@@ -28,7 +28,7 @@ shop:
     RewardType: item
     PriceType: money
     Price: 280
-    Reward: 
+    Reward:
     - - id: 383
       - amount: 1
       - durability: 55
