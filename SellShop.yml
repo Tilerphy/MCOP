@@ -130,6 +130,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 7
     ExtraPermission: ''
+  feather:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:FEATHER
+      - amount:16
+    Reward: 500
+    MenuItem:
+    - type:FEATHER
+    - name:&b16 羽毛
+    - 'lore:&2Reward: 500 Money'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''  
   Back:
     RewardType: shop
     PriceType: free
