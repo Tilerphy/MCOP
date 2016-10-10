@@ -29,16 +29,16 @@ shop:
     PriceType: Money
     Price: 280
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 55
-      - name: &b史莱姆刷怪蛋
+    - - id:383
+      - amount:1
+      - durability:55
+      - name:&b史莱姆刷怪蛋
       - 'lore:&2扔出来一个的随机大小史莱姆，看人品咯。'
     MenuItem:
-    - id: 383
-    - durability: 55
-    - amount: 1
-    - name: &b史莱姆刷怪蛋
+    - id:383
+    - durability:55
+    - amount:1
+    - name:&b史莱姆刷怪蛋
     - 'lore:&2Reward: 280 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 1
@@ -48,16 +48,16 @@ shop:
     PriceType: money
     Price: 800
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 102
-      - name: &b北极熊蛋
+    - - id:383
+      - amount:1
+      - durability:102
+      - name:&b北极熊蛋
       - 'lore:&2扔出来一个北极熊，我也不知道能干什么用。'
     MenuItem:
-    - id: 383
-    - durability: 102
-    - amount: 1
-    - name: &b北极熊刷怪蛋
+    - id:383
+    - durability:102
+    - amount:1
+    - name:&b北极熊刷怪蛋
     - 'lore:&2Reward: 800 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 2
@@ -67,16 +67,16 @@ shop:
     PriceType: money
     Price: 80000
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 95
-      - name: &b狼
+    - - id:383
+      - amount:1
+      - durability:95
+      - name:&b狼
       - 'lore:&2扔出来一只狼，别忘了用骨头驯化它。'
     MenuItem:
-    - id: 383
-    - durability: 95
-    - amount: 1
-    - name: &b狼
+    - id:383
+    - durability:95
+    - amount:1
+    - name:&b狼
     - 'lore:&2Reward: 80000 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 3
@@ -86,16 +86,16 @@ shop:
     PriceType: money
     Price: 80000
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 98
-      - name: &b猫
+    - - id:383
+      - amount:1
+      - durability:98
+      - name:&b猫
       - 'lore:&2扔出来一只猫，别忘了用生鱼驯化它。'
     MenuItem:
-    - id: 383
-    - durability: 98
-    - amount: 1
-    - name: &b猫
+    - id:383
+    - durability:98
+    - amount:1
+    - name:&b猫
     - 'lore:&2Reward: 80000 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 4
@@ -105,16 +105,16 @@ shop:
     PriceType: money
     Price: 200
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 54
-      - name: &b僵尸
+    - - id:383
+      - amount:1
+      - durability:54
+      - name:&b僵尸
       - 'lore:&2扔出一只随处可见的僵尸，你非要花钱买也无所谓。'
     MenuItem:
-    - id: 383
-    - durability: 54
-    - amount: 1
-    - name: &b僵尸
+    - id:383
+    - durability:54
+    - amount:1
+    - name:&b僵尸
     - 'lore:&2Reward: 200 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 5
@@ -124,19 +124,31 @@ shop:
     PriceType: money
     Price: 800
     Reward:
-    - - id: 383
-      - amount: 1
-      - durability: 56
-      - name: &b恶魂
+    - - id:383
+      - amount:1
+      - durability:56
+      - name:&b恶魂
       - 'lore:&2请去野地召唤……否则你会得到来自设计师的审判'
     MenuItem:
-    - id: 383
-    - durability: 56
-    - amount: 1
-    - name: &b恶魂
+    - id:383
+    - durability:56
+    - amount:1
+    - name:&b恶魂
     - 'lore:&2Reward: 800 Money'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 6
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 27
     ExtraPermission: ''
 # 配置文件版本,重要,请勿修改
 # 插件升级配置的时候需要用到
