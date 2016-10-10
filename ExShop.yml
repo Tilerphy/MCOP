@@ -26,6 +26,9 @@ signs:
 shop:
   Slime:
     Reward:
+    RewardType: item
+    PriceType: Money
+    Price: 280
     - - id: 383
       - amount: 1
       - durability: 55
