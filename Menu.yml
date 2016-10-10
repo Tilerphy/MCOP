@@ -50,7 +50,7 @@ shop:
     - name:&b&l传送门 &6[+]
     - lore:&8传送至各个要地
     Message: ''
-    InventoryLocation: 3
+    InventoryLocation: 4
     ExtraPermission: ''
     
     
