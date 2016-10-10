@@ -1,0 +1,32 @@
+DisplayName: '&b&l传送门'
+ShopName: PortalShop
+signs:
+  text: '[PortalShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  Slime:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% -1298 64 -1058'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2海边安全屋'
+    - 'lore:&2传送至海边安全屋。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 27
+    ExtraPermission: ''
