@@ -25,7 +25,6 @@ signs:
   NeedPermissionToCreateSign: true
 shop:
   Slime:
-    Reward:
     RewardType: item
     PriceType: Money
     Price: 280
