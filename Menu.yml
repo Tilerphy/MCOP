@@ -41,10 +41,10 @@ shop:
     PriceType: free
     Reward: ExShop
     MenuItem:
-    - type:GOLD_INGOT
+    - id: 383
     - amount:1
-    - name:&9&l换购商店 &6[+]
-    - lore:&8在这里换购！
+    - name:&9&l蛋蛋商店 &6[+]
+    - lore:&8在这里买蛋蛋！
     Message: ''
     InventoryLocation: 2
     ExtraPermission: ''
