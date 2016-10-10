@@ -43,6 +43,63 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 1
     ExtraPermission: ''
+  bear:
+    RewardType: item
+    PriceType: money
+    Price:800
+    Reward:
+    - - id:383
+      - amount:1
+      - durability:102
+      - name:&b北极熊蛋
+      - 'lore:&2扔出来一个北极熊，我也不知道能干什么用。'
+    MenuItem:
+    - id:383
+    - durability:102
+    - amount:1
+    - name:&b北极熊刷怪蛋
+    - 'lore:&2Reward: 800 Money'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  wolf:
+    RewardType: item
+    PriceType: money
+    Price:80000
+    Reward:
+    - - id:383
+      - amount:1
+      - durability:95
+      - name:&b狼
+      - 'lore:&2扔出来一只狼，别忘了用骨头驯化它。'
+    MenuItem:
+    - id:383
+    - durability:102
+    - amount:1
+    - name:&b狼
+    - 'lore:&2Reward: 80000 Money'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  cat:
+    RewardType: item
+    PriceType: money
+    Price:80000
+    Reward:
+    - - id:383
+      - amount:1
+      - durability:98
+      - name:&b猫
+      - 'lore:&2扔出来一只猫，别忘了用骨头驯化它。'
+    MenuItem:
+    - id:383
+    - durability:102
+    - amount:1
+    - name:&b猫
+    - 'lore:&2Reward: 80000 Money'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
 # 配置文件版本,重要,请勿修改
 # 插件升级配置的时候需要用到
 version: '1.2'
