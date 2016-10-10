@@ -232,7 +232,7 @@ shop:
   arrows:
     RewardType: item
     PriceType: Money
-    Price: 1000
+    Price: 3000
     Reward:
     - - type:ARROW
       - amount:64
@@ -240,7 +240,7 @@ shop:
     - type:ARROW
     - amount:64
     - name:&964 Arrows
-    - 'lore:&cPrice: 1000 Money'
+    - 'lore:&cPrice: 3000 Money'
     - amount:1
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 11
