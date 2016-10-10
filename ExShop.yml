@@ -29,7 +29,8 @@ shop:
     RewardType: item
     PriceType: Money
     Price: 280
-    - - type: 383
+    Reward:
+    - - id: 383
       - amount: 1
       - durability: 55
       - name: &b史莱姆刷怪蛋
