@@ -139,6 +139,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 9
     ExtraPermission: ''
+  enderman:
+    RewardType: command
+    PriceType: money
+    Price: 1500
+    Reward:
+    - 'give %player% spawn_egg 1 0 {EntityTag:{id:"Enderman"}}'
+    MenuItem:
+    - id:383
+    - durability:120
+    - amount:1
+    - name:&b末影人小黑
+    - 'lore:&2可能掉落末影珍珠，末影箱的原料！…… 价格 1500'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
