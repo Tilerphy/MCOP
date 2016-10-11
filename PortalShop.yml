@@ -4,7 +4,7 @@ signs:
   text: '[PortalShop]'
   NeedPermissionToCreateSign: true
 shop:
-  Slime:
+  SeaHome:
     RewardType: command
     PriceType: Money
     Price: 1000
@@ -17,6 +17,20 @@ shop:
     - 'lore:&2传送至海边安全屋。 价格 1000'
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 1
+    ExtraPermission: ''
+  Home:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% 487 78 315'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2城堡'
+    - 'lore:&2传送至城堡。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
     ExtraPermission: ''
   Back:
     RewardType: shop
