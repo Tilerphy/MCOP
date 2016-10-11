@@ -279,6 +279,22 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 14
     ExtraPermission: ''
+  tnt:
+    RewardType: item
+    PriceType: Money
+    Price: 600
+    Reward:
+    - - id:46
+      - amount:1
+    MenuItem:
+    - id:46
+    - amount:1
+    - name:&9TNT
+    - 'lore:&cTNT，威力大，效果好，连锁快，炸山利器。小心火烛！。 价格 600'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
