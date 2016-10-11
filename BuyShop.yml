@@ -263,6 +263,22 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 13
     ExtraPermission: ''
+  spawner:
+    RewardType: item
+    PriceType: Money
+    Price: 6000
+    Reward:
+    - - id:52
+      - amount:1
+    MenuItem:
+    - id:52
+    - amount:1
+    - name:&9普通刷猪笼
+    - 'lore:&c刷怪笼，默认刷猪，用刷怪蛋右键它，改变刷怪种类。 价格 6000'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
