@@ -24,7 +24,7 @@ shop:
     PriceType: money
     Price: 800
     Reward:
-    - 'give %player% spawn_egg 1 102'
+    - 'give %player% spawn_egg 1 0 {EntityTag:{id:"PolarBear"}}'
     MenuItem:
     - id:383
     - durability:102
