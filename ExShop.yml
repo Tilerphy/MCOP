@@ -124,6 +124,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 8
     ExtraPermission: ''
+  shadizombie:
+    RewardType: command
+    PriceType: money
+    Price: 300
+    Reward:
+    - 'give %player% spawn_egg 1 0 {EntityTag:{id:"Zombie",ZombieType:6}}'
+    MenuItem:
+    - id:383
+    - durability:120
+    - amount:1
+    - name:&b沙地僵尸
+    - 'lore:&2沙地僵尸，不怕光哟…… 价格 300'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
