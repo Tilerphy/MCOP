@@ -154,6 +154,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 10
     ExtraPermission: ''
+  horce:
+    RewardType: command
+    PriceType: money
+    Price: 80000
+    Reward:
+    - 'give %player% spawn_egg 1 100'
+    MenuItem:
+    - id:383
+    - durability:120
+    - amount:1
+    - name:&bMy Little Pony
+    - 'lore:&2小马小马小马小马！My Little Pony！…… 价格 80000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
