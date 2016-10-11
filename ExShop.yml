@@ -94,6 +94,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 6
     ExtraPermission: ''
+  farmer:
+    RewardType: command
+    PriceType: money
+    Price: 1000
+    Reward:
+    - 'give %player% spawn_egg 1 120'
+    MenuItem:
+    - id:383
+    - durability:120
+    - amount:1
+    - name:&b村民
+    - 'lore:&2为什么村民要从蛋里出来？ 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
