@@ -53,19 +53,33 @@ BossShop.check - 允许使用check命令.
 
 BossShop 符号
 [<3] -> ❤
+
 [*] ->
+
 [] -> ✹
+
 [o] ->
+
 [v] -> ✔
+
 [+] -> ♦
+
 [x] -> ✦
+
 [%] -> ♠
+
 [%%] -> ♣
+
 [radioactive] -> ☢
+
 [peace] -> ☮
+
 [moon] -> ☾
+
 [crown] -> ♔
+
 [note] -> ♩
+
 
 BossShop物品属性
 MenuItem:
