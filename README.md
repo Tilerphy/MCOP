@@ -1,4 +1,4 @@
-Spigot 1.10.x OP 常用
+<b>Spigot 1.10.x OP 常用</b>
 
 1. RPGItem地址 https://www.spigotmc.org/resources/rpgitems.17549/
 
@@ -40,14 +40,15 @@ rpgitem test0 drop pig_zombie 10 （僵尸猪人10%掉落）
 
 
 
-BossShop 权限：
+<b>BossShop 权限：</b>
+
 BossShop.open - 允许使用牌子或者命令打开商店.
 
 BossShop.open.sign - 允许使用牌子打开商店.
 
 BossShop.open.command - 允许使用命令打开商店.
 
-BossShop.open.command.<shopname> - 允许通过命令打开特定名字的商店.
+BossShop.open.command."shopname" - 允许通过命令打开特定名字的商店.
 
 BossShop.open.other - 允许为其他玩家打开商店.
 
@@ -60,8 +61,9 @@ BossShop.reload - 允许重载插件.
 BossShop.check - 允许使用check命令.
 
 
-BossShop 符号
-[<3] -> ❤
+<b>BossShop 符号</b>
+
+[\<3] -> ❤
 
 [*] ->
 
@@ -90,31 +92,31 @@ BossShop 符号
 [note] -> ♩
 
 
-BossShop物品属性
+<b>BossShop物品属性</b>
 MenuItem:
 
-- id:<id> - 显示的图标的物品ID,此选项和Type只需要一个即可,比如石头的ID就是1.
+- id:id - 显示的图标的物品ID,此选项和Type只需要一个即可,比如石头的ID就是1.
 
-- type:<type> - 显示的图标的物品类型,此选项和Type只需要一个即可,比如石头就是Stone.
+- type:type - 显示的图标的物品类型,此选项和Type只需要一个即可,比如石头就是Stone.
 
-- durability:<durability> - 耐久值,或者子ID,就是各种颜色羊毛的ID冒号后面的部分.
+- durability:durability - 耐久值,或者子ID,就是各种颜色羊毛的ID冒号后面的部分.
 
-- amount:<amount> - 数量.
+- amount:amount - 数量.
 
-- name:<name> - 名称,当鼠标悬停时显示在最顶端的项目名称,可以使用颜色代码,符号代码(参见商店名称部分),以及特殊标记(见下).
+- name:name - 名称,当鼠标悬停时显示在最顶端的项目名称,可以使用颜色代码,符号代码(参见商店名称部分),以及特殊标记(见下).
 
-- lore:<line1#line2#line3> - 描述文字,当鼠标悬停是显示的物品描述,可以使用颜色代码,符号代码(参见商店名称部分),以及特殊标记(见下),使用"#"可以换行.
+- lore:line1#line2#line3 - 描述文字,当鼠标悬停是显示的物品描述,可以使用颜色代码,符号代码(参见商店名称部分),以及特殊标记(见下),使用"#"可以换行.
 
-- enchantment:<enchantment name>#<level>
+- enchantment:enchantment name#level
 
-- enchantmentid:<enchantment id>#<level> - 这两个都是显示的物品上的附魔.附魔可以用附魔名称(英文)#等级或者附魔ID#等级来表示,具体名称和等级见下.
+- enchantmentid:enchantment id#level - 这两个都是显示的物品上的附魔.附魔可以用附魔名称(英文)#等级或者附魔ID#等级来表示,具体名称和等级见下.
 
-- color:<red number>#<green number>#<blue number> - RGB颜色值,似乎只对皮甲有用...可以将皮甲染色.
+- color:red number#green number#blue number - RGB颜色值,似乎只对皮甲有用...可以将皮甲染色.
 
-- potioneffect:<potion name>#<level>#<time in seconds> - 药水的名称(英文)#等级#时间(秒),当type为"type:POTION"时生效,表示这瓶药水的属性,具体药水效果表见下.
+- potioneffect:potion name#level#time in seconds - 药水的名称(英文)#等级#时间(秒),当type为"type:POTION"时生效,表示这瓶药水的属性,具体药水效果表见下.
 
 
-Placeholder复用
+<b>Placeholder复用</b>
 
 %balance% - 玩家当前余额.
 
@@ -131,7 +133,7 @@ Placeholder复用
 %rewardtype% - 奖励类型
 
 
-附魔ID与名称
+<b>附魔ID与名称</b>
 
 中文名	英文名(可在插件中使用)
 
@@ -196,7 +198,7 @@ Placeholder复用
 62	诱饵	LURE
 
 
-效果名称
+<b>效果名称</b>
 
 中文名	英文名(可在插件中使用)
 
