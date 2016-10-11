@@ -295,6 +295,22 @@ shop:
     Message: '&eYou bought %reward%! Money left: &c%left%'
     InventoryLocation: 15
     ExtraPermission: ''
+  cake:
+    RewardType: item
+    PriceType: Money
+    Price: 2000
+    Reward:
+    - - id:354
+      - amount:1
+    MenuItem:
+    - id:354
+    - amount:1
+    - name:&9蛋糕！
+    - 'lore:&c不仅仅过生日的时候可以吃蛋糕。 价格 2000'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
