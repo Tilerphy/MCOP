@@ -109,6 +109,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 7
     ExtraPermission: ''
+  blackskelen:
+    RewardType: command
+    PriceType: money
+    Price: 800
+    Reward:
+    - 'give %player% spawn_egg 1 0 {EntityTag:{id:"Skeleton",SkeletonType:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b}],ArmorItems:[{},{},{},{}]}}'
+    MenuItem:
+    - id:383
+    - durability:120
+    - amount:1
+    - name:&b凋零骷髅
+    - 'lore:&2凋零骷髅一只，召唤之前，请确认是否打的过…… 价格 800'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
