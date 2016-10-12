@@ -32,6 +32,20 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 2
     ExtraPermission: ''
+  forest:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% 166 70 -2264'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2遗迹森林'
+    - 'lore:&2传送至遗迹森林。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
