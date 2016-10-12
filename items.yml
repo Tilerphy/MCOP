@@ -1,5 +1,53 @@
 pos: 21
 items:
+  '12':
+    name: '12'
+    id: 12
+    haspermission: false
+    permission: a.default.permission
+    display: 鬼魅
+    quality: LEGENDARY
+    damageMin: 1
+    damageMax: 30
+    armour: 0
+    type: 剑
+    hand: 单手剑
+    lore: ''
+    description:
+    - '&f&5“我并未凋零。”'
+    item: STONE_SWORD
+    ignoreWorldGuard: false
+    item_data: 0
+    powers:
+      '0':
+        powerName: potionself
+        cooldown: 200
+        amp: 1
+        time: 100
+        type: INVISIBILITY
+      '1':
+        powerName: potionhit
+        chance: 1
+        duration: 100
+        amplifier: 4
+        type: WITHER
+    recipechance: 6
+    hasRecipe: false
+    dropChances:
+      ENDERMAN: 1.0
+      WITCH: 1.0
+      BLAZE: 1.0
+      WITHER: 100.0
+      ENDER_DRAGON: 100.0
+      ZOMBIE: 1.0
+      SKELETON: 1.0
+      SQUID: 1.0
+      GHAST: 1.0
+      PIG_ZOMBIE: 1.0
+    maxDurability: 160
+    forceBar: true
+    showPowerText: true
+    showArmourLore: true
   '11':
     name: '11'
     id: 20
