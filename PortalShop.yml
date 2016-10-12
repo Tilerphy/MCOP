@@ -46,6 +46,20 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 3
     ExtraPermission: ''
+  country1:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% 2341 70 4374'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2南方小镇'
+    - 'lore:&2传送至南方小镇。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
