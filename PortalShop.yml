@@ -51,7 +51,7 @@ shop:
     PriceType: Money
     Price: 1000
     Reward:
-    - 'tp %player% 2341 150 4374'
+    - 'tp %player% 2341 70 4374'
     MenuItem:
     - id:386
     - amount:1
