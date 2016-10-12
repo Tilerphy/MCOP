@@ -60,6 +60,20 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 4
     ExtraPermission: ''
+  unkown1:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% 6448 70 344'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2遥远的东方'
+    - 'lore:&2传送至遥远的东方（危险！！）。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
