@@ -155,6 +155,21 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 10
     ExtraPermission: ''
+  goldsword:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - id:283
+      - amount:1
+    Reward: 2000
+    MenuItem:
+    - id:283
+    - name:&b1把金剑
+    - 'lore:&2一把的金灿灿剑，虽然很软，但很值钱。价格： 2000'
+    - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
