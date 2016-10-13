@@ -74,6 +74,20 @@ shop:
     Message: '&eYou sold %price% for %reward% %rewardtype%!'
     InventoryLocation: 5
     ExtraPermission: ''
+  unkown2:
+    RewardType: command
+    PriceType: Money
+    Price: 1000
+    Reward:
+    - 'tp %player% 7804 63 -1058'
+    MenuItem:
+    - id:386
+    - amount:1
+    - 'name:&b传送 &2古代遗迹'
+    - 'lore:&2传送至古代遗迹。 价格 1000'
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
   Back:
     RewardType: shop
     PriceType: free
