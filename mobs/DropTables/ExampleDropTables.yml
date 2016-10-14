@@ -6,9 +6,9 @@ SkeletonKingDrops:
   Conditions:
   - playerwithin 40
   Drops:
-  - KingsCrown 1 0.01
+  - KingsCrown 1 1
   - 371:0 32-64 1
   - exp 100
-  - heroesexp 200
+  - heroesexp 1000
   DropsPerLevel:
   - exp 10
