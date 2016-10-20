@@ -69,7 +69,7 @@ SkeletonKing:
 SkeletalMinion:
   Type: SKELETON
   Display: '&2Skeletal Minion'
-  Health: 10
-  Damage: 2
+  Health: 5
+  Damage: 1
   Options:
     MovementSpeed: 0.1
