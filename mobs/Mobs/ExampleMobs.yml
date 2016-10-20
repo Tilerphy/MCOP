@@ -20,6 +20,8 @@ StaticallyChargedSheep:
   Display: '&bStatically Charged Sheep'
   Health: 100
   Damage: 2
+  Drops:
+  - gold_nugget 30 1
   Options:
     MovementSpeed: 0.3
   DamageModifiers:
@@ -32,6 +34,8 @@ AngrySludge:
   Display: Angry Sludge
   Health: 100
   Damage: 2
+  Drops:
+  - gold_nugget 30 1
   Options:
     Size: 20
     MovementSpeed: 0.1
@@ -44,8 +48,8 @@ AngrySludge:
 SkeletonKing:
   Type: WITHER_SKELETON
   Display: '&6Skeleton King'
-  Health: 500
-  Damage: 10
+  Health: 350
+  Damage: 8
   Skills:
   - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"} @PlayersInRadius{r=40} ~onCombat >0 0.2
   - message{m="<mob.name><&co> Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
@@ -56,7 +60,7 @@ SkeletonKing:
   - SkeletonKingSword:0
   Drops:
   - SkeletonKingDrops
-  - gold_nugget 50 1 
+  - gold_nugget 60 1 
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.2
