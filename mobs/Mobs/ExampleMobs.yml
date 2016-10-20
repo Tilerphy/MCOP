@@ -6,6 +6,12 @@ SkeletalKnight:
   Display: '&2Skeletal Knight'
   Health: 40
   Damage: 8
+  BossBar:
+    Enabled: true
+    Title: '&2Skeletal Knight'
+    Range: 40
+    Color: RED
+    Style: SOLID
   Drops:
   - gold_nugget 10 1
   DropsPerLevel:
@@ -20,6 +26,12 @@ StaticallyChargedSheep:
   Display: '&bStatically Charged Sheep'
   Health: 100
   Damage: 2
+  BossBar:
+    Enabled: true
+    Title: '&bStatically Charged Sheep'
+    Range: 100
+    Color: RED
+    Style: SOLID
   Drops:
   - gold_nugget 30 1
   Options:
@@ -34,6 +46,12 @@ AngrySludge:
   Display: Angry Sludge
   Health: 100
   Damage: 2
+  BossBar:
+    Enabled: true
+    Title: 'Angry Sludge'
+    Range: 100
+    Color: RED
+    Style: SOLID
   Drops:
   - gold_nugget 30 1
   Options:
@@ -50,6 +68,12 @@ SkeletonKing:
   Display: '&6Skeleton King'
   Health: 350
   Damage: 8
+  BossBar:
+    Enabled: true
+    Title: '&6Skeleton King'
+    Range: 350
+    Color: RED
+    Style: SOLID
   Skills:
   - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"} @PlayersInRadius{r=40} ~onCombat >0 0.2
   - message{m="<mob.name><&co> Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
