@@ -91,6 +91,7 @@ OUTERGIANT:
   - message{cooldown=20;m="<mob.name><&co> 转化！转化！"} @PlayersInRadius{r=40} ~onCombat >0 0.2
   - message{m="<mob.name><&co> 吃掉！ <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
   - skill{s=SmashAttack} @Target >0 0.2
+  - skill{s=SummonSkeletons} @Self 0.2
   Drops:
   - GIANTDROPS
   Options:
