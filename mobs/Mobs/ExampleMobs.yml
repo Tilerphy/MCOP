@@ -13,9 +13,7 @@ SkeletalKnight:
     Color: RED
     Style: SOLID
   Drops:
-  - gold_nugget 10 1
-  DropsPerLevel:
-  - gold_nugget 1 0.5
+  - CommonBiggerDrops
   LevelModifiers:
   - health 5
   - damage 0.5
@@ -33,7 +31,7 @@ StaticallyChargedSheep:
     Color: RED
     Style: SOLID
   Drops:
-  - gold_nugget 30 1
+  - CommonBossDrops
   Options:
     MovementSpeed: 0.3
   DamageModifiers:
@@ -53,7 +51,7 @@ AngrySludge:
     Color: RED
     Style: SOLID
   Drops:
-  - gold_nugget 30 1
+  - CommonBossDrops
   Options:
     Size: 20
     MovementSpeed: 0.1
@@ -84,7 +82,6 @@ SkeletonKing:
   - SkeletonKingSword:0
   Drops:
   - SkeletonKingDrops
-  - gold_nugget 60 1 
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.2
