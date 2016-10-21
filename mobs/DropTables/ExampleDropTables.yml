@@ -29,3 +29,11 @@ CommonBiggerDrops:
   - exp 50
   DropsPerLevel:
   - exp 10
+GIANTDROPS:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - gold_nugget 100 1
+  - exp 200
+  DropsPerLevel:
+  - exp 30
