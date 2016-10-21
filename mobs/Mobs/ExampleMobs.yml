@@ -6,12 +6,6 @@ SkeletalKnight:
   Display: '&2Skeletal Knight'
   Health: 40
   Damage: 8
-  BossBar:
-    Enabled: true
-    Title: '&2Skeletal Knight'
-    Range: 40
-    Color: RED
-    Style: SOLID
   Drops:
   - CommonBiggerDrops
   LevelModifiers:
@@ -24,12 +18,6 @@ StaticallyChargedSheep:
   Display: '&bStatically Charged Sheep'
   Health: 100
   Damage: 2
-  BossBar:
-    Enabled: true
-    Title: '&bStatically Charged Sheep'
-    Range: 100
-    Color: RED
-    Style: SOLID
   Drops:
   - CommonBossDrops
   Options:
@@ -44,12 +32,6 @@ AngrySludge:
   Display: Angry Sludge
   Health: 100
   Damage: 2
-  BossBar:
-    Enabled: true
-    Title: 'Angry Sludge'
-    Range: 100
-    Color: RED
-    Style: SOLID
   Drops:
   - CommonBossDrops
   Options:
