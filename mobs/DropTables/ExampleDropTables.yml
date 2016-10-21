@@ -12,3 +12,11 @@ SkeletonKingDrops:
   - heroesexp 1000
   DropsPerLevel:
   - exp 10
+CommonBossDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - gold_nugget 30 1
+  - exp 150
+  DropsPerLevel:
+  - exp 10
