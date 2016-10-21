@@ -7,6 +7,7 @@ SkeletonKingDrops:
   - playerwithin 40
   Drops:
   - KingsCrown 1 1
+  - gold_nugget 60 1
   - 371:0 32-64 1
   - exp 100
   - heroesexp 1000
