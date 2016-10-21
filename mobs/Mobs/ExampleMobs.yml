@@ -92,7 +92,7 @@ OUTERGIANT:
   - message{m="<mob.name><&co> 吃掉！ <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
   - skill{s=SmashAttack} @Target >0 0.2
   Drops:
-  - SkeletonKingDrops
+  - GIANTDROPS
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.2
