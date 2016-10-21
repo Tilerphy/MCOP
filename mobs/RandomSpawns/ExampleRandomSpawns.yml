@@ -22,3 +22,11 @@ RandomAngrySludge:
   Chance: 0.08
   Priority: 1
   Action: add
+RandomOUTERGIANT:
+  MobType: AngrySludge
+  Worlds: world
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+  Conditions:
+  - outside true
