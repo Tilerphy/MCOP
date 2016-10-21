@@ -76,3 +76,25 @@ SkeletalMinion:
   Damage: 1
   Options:
     MovementSpeed: 0.1
+OUTERGIANT:
+  Type: GIANT
+  Display: '&6墙外巨人'
+  Health: 1000
+  Damage: 12
+  BossBar:
+    Enabled: true
+    Title: '&6墙外巨人'
+    Range: 1000
+    Color: RED
+    Style: SOLID
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> 转化！转化！"} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> 吃掉！ <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
+  - skill{s=SmashAttack} @Target >0 0.2
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
