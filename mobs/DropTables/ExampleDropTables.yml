@@ -34,6 +34,7 @@ GIANTDROPS:
   - playerwithin 40
   Drops:
   - gold_nugget 100 1
-  - exp 200
+  - diamond 2-10 1
+  - exp 500
   DropsPerLevel:
-  - exp 30
+  - exp 50
