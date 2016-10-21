@@ -16,12 +16,16 @@ RandomSkeletalKnight:
   Chance: 0.08
   Priority: 1
   Action: add
+  Conditions:
+  - outside true
 RandomAngrySludge:
   MobType: AngrySludge
   Worlds: world
   Chance: 0.08
   Priority: 1
   Action: add
+  Conditions:
+  - outside true
 RandomOUTERGIANT:
   MobType: OUTERGIANT
   Worlds: world
