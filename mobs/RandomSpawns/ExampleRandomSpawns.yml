@@ -23,7 +23,7 @@ RandomAngrySludge:
   Priority: 1
   Action: add
 RandomOUTERGIANT:
-  MobType: AngrySludge
+  MobType: OUTERGIANT
   Worlds: world
   Chance: 0.01
   Priority: 1
